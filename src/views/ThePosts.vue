@@ -45,7 +45,15 @@ watch(() => posts.value,
 	}
 
 	.grid-item {
-		width: calc((100% - 3rem)/3);
+		width: calc((100% - 4rem)/4);
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.posts {
+		.grid-item {
+			width: calc((100% - 3rem)/3);
+		}
 	}
 }
 

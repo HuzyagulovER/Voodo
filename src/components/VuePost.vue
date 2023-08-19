@@ -24,11 +24,11 @@ const { post, user } = toRefs(props)
 .post {
 	background-color: $--c_white;
 	padding: 1rem;
-	border: .1rem solid $--c_grey;
+	border: .1rem solid rgba($color: $--c_grey, $alpha: 0.5);
 	border-radius: .2rem;
 
 	&>*+* {
-		margin-top: 0.5rem;
+		margin-top: 1rem;
 	}
 
 	&__title {
@@ -39,6 +39,9 @@ const { post, user } = toRefs(props)
 
 	&__text {}
 
-	&__author {}
+	&__author {
+		font-size: 0.8rem;
+		color: $--c_grey;
+	}
 }
 </style>

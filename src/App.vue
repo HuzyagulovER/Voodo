@@ -64,7 +64,7 @@ function filter(name: Event): void {
 	}
 
 	&__input {
-		width: auto;
+		width: 100%;
 		height: 100%;
 		background-color: transparent;
 		border: 0;

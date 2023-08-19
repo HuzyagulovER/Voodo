@@ -4,7 +4,7 @@ This template should help get you started developing with Vue 3 in Vite.
 
 ## Site to watch
 
-You can check it on [my site](https://examples.edproduction.xyz/examples/_voodo/)
+You can check it on [my site](https://examples.edproduction.xyz/examples/_voodo/).
 
 ## Customize configuration
 
